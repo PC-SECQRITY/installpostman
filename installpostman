@@ -1,0 +1,20 @@
+#!/bin/bash
+
+*********************AKshitSijwali*********************************
+
+echo "This script require a sudo permission"
+echo "Make sure you are root to use this"
+echo "Example:-Postman-linux-x86_64-9.6.1.tar.gz"
+echo "Enter your file name which yo installed from a postman site:"
+read name
+
+************************InstallaionStarts*********
+Installing!!!!!!
+
+cd Downloads/
+echo "$name"
+tar -xzf $name
+sudo mkdir -p /opt/apps/
+sudo mv Postman /opt/apps/
+sudo ln -s /opt/apps/Postman/Postman /usr/local/bin/postman
+postman
