@@ -9,7 +9,7 @@ HOW TO USE THIS
 
 3-Now install this script simply.
 
-4-After that nano the script and change the 
+4-After that nano the script and edit the line number 4 just replace the file name with your file name then save it.
 
 
 5-chmod +x *(copy this command and paste it on command terminal and enter)
