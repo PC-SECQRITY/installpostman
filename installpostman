@@ -1,8 +1,0 @@
-#!/bin/bash
-
-cd Downloads/
-tar -xzf Postman-linux-x86_64-9.6.1.tar.gz
-sudo mkdir -p /opt/apps/
-sudo mv Postman /opt/apps/
-sudo ln -s /opt/apps/Postman/Postman /usr/local/bin/postman
-postman
